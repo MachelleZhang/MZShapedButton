@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017B76B61C111F8C006C90BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 017B76B51C111F8C006C90BF /* main.m */; };
+		017B76B91C111F8C006C90BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017B76B81C111F8C006C90BF /* AppDelegate.m */; };
+		017B76C11C111F8C006C90BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017B76C01C111F8C006C90BF /* Assets.xcassets */; };
+		017B76C41C111F8C006C90BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017B76C21C111F8C006C90BF /* LaunchScreen.storyboard */; };
+		017B76CF1C111F8C006C90BF /* MZShapedButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017B76CE1C111F8C006C90BF /* MZShapedButtonTests.m */; };
+		017B76DA1C111F8C006C90BF /* MZShapedButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017B76D91C111F8C006C90BF /* MZShapedButtonUITests.m */; };
+		017B76E91C112011006C90BF /* MZShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 017B76E81C112011006C90BF /* MZShapedButton.m */; };
+		017B76EC1C1120C3006C90BF /* MZShapedButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017B76EB1C1120C3006C90BF /* MZShapedButtonController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		017B76CB1C111F8C006C90BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017B76A91C111F8C006C90BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017B76B01C111F8C006C90BF;
+			remoteInfo = MZShapedButton;
+		};
+		017B76D61C111F8C006C90BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017B76A91C111F8C006C90BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017B76B01C111F8C006C90BF;
+			remoteInfo = MZShapedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017B76B11C111F8C006C90BF /* MZShapedButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZShapedButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017B76B51C111F8C006C90BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		017B76B71C111F8C006C90BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		017B76B81C111F8C006C90BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		017B76C01C111F8C006C90BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		017B76C31C111F8C006C90BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		017B76C51C111F8C006C90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017B76CA1C111F8C006C90BF /* MZShapedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZShapedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		017B76CE1C111F8C006C90BF /* MZShapedButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZShapedButtonTests.m; sourceTree = "<group>"; };
+		017B76D01C111F8C006C90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017B76D51C111F8C006C90BF /* MZShapedButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZShapedButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		017B76D91C111F8C006C90BF /* MZShapedButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZShapedButtonUITests.m; sourceTree = "<group>"; };
+		017B76DB1C111F8C006C90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017B76E71C112011006C90BF /* MZShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZShapedButton.h; sourceTree = "<group>"; };
+		017B76E81C112011006C90BF /* MZShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZShapedButton.m; sourceTree = "<group>"; };
+		017B76EA1C1120C3006C90BF /* MZShapedButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZShapedButtonController.h; sourceTree = "<group>"; };
+		017B76EB1C1120C3006C90BF /* MZShapedButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZShapedButtonController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017B76AE1C111F8C006C90BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017B76C71C111F8C006C90BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017B76D21C111F8C006C90BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017B76A81C111F8C006C90BF = {
+			isa = PBXGroup;
+			children = (
+				017B76B31C111F8C006C90BF /* MZShapedButton */,
+				017B76CD1C111F8C006C90BF /* MZShapedButtonTests */,
+				017B76D81C111F8C006C90BF /* MZShapedButtonUITests */,
+				017B76B21C111F8C006C90BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017B76B21C111F8C006C90BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017B76B11C111F8C006C90BF /* MZShapedButton.app */,
+				017B76CA1C111F8C006C90BF /* MZShapedButtonTests.xctest */,
+				017B76D51C111F8C006C90BF /* MZShapedButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017B76B31C111F8C006C90BF /* MZShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				017B76B71C111F8C006C90BF /* AppDelegate.h */,
+				017B76B81C111F8C006C90BF /* AppDelegate.m */,
+				017B76C01C111F8C006C90BF /* Assets.xcassets */,
+				017B76C21C111F8C006C90BF /* LaunchScreen.storyboard */,
+				017B76C51C111F8C006C90BF /* Info.plist */,
+				017B76B41C111F8C006C90BF /* Supporting Files */,
+				017B76E71C112011006C90BF /* MZShapedButton.h */,
+				017B76E81C112011006C90BF /* MZShapedButton.m */,
+				017B76EA1C1120C3006C90BF /* MZShapedButtonController.h */,
+				017B76EB1C1120C3006C90BF /* MZShapedButtonController.m */,
+			);
+			path = MZShapedButton;
+			sourceTree = "<group>";
+		};
+		017B76B41C111F8C006C90BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017B76B51C111F8C006C90BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		017B76CD1C111F8C006C90BF /* MZShapedButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				017B76CE1C111F8C006C90BF /* MZShapedButtonTests.m */,
+				017B76D01C111F8C006C90BF /* Info.plist */,
+			);
+			path = MZShapedButtonTests;
+			sourceTree = "<group>";
+		};
+		017B76D81C111F8C006C90BF /* MZShapedButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				017B76D91C111F8C006C90BF /* MZShapedButtonUITests.m */,
+				017B76DB1C111F8C006C90BF /* Info.plist */,
+			);
+			path = MZShapedButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017B76B01C111F8C006C90BF /* MZShapedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017B76DE1C111F8C006C90BF /* Build configuration list for PBXNativeTarget "MZShapedButton" */;
+			buildPhases = (
+				017B76AD1C111F8C006C90BF /* Sources */,
+				017B76AE1C111F8C006C90BF /* Frameworks */,
+				017B76AF1C111F8C006C90BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZShapedButton;
+			productName = MZShapedButton;
+			productReference = 017B76B11C111F8C006C90BF /* MZShapedButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		017B76C91C111F8C006C90BF /* MZShapedButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017B76E11C111F8C006C90BF /* Build configuration list for PBXNativeTarget "MZShapedButtonTests" */;
+			buildPhases = (
+				017B76C61C111F8C006C90BF /* Sources */,
+				017B76C71C111F8C006C90BF /* Frameworks */,
+				017B76C81C111F8C006C90BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017B76CC1C111F8C006C90BF /* PBXTargetDependency */,
+			);
+			name = MZShapedButtonTests;
+			productName = MZShapedButtonTests;
+			productReference = 017B76CA1C111F8C006C90BF /* MZShapedButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		017B76D41C111F8C006C90BF /* MZShapedButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017B76E41C111F8C006C90BF /* Build configuration list for PBXNativeTarget "MZShapedButtonUITests" */;
+			buildPhases = (
+				017B76D11C111F8C006C90BF /* Sources */,
+				017B76D21C111F8C006C90BF /* Frameworks */,
+				017B76D31C111F8C006C90BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017B76D71C111F8C006C90BF /* PBXTargetDependency */,
+			);
+			name = MZShapedButtonUITests;
+			productName = MZShapedButtonUITests;
+			productReference = 017B76D51C111F8C006C90BF /* MZShapedButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017B76A91C111F8C006C90BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Machelle;
+				TargetAttributes = {
+					017B76B01C111F8C006C90BF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QK9T87M3E2;
+					};
+					017B76C91C111F8C006C90BF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QK9T87M3E2;
+						TestTargetID = 017B76B01C111F8C006C90BF;
+					};
+					017B76D41C111F8C006C90BF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QK9T87M3E2;
+						TestTargetID = 017B76B01C111F8C006C90BF;
+					};
+				};
+			};
+			buildConfigurationList = 017B76AC1C111F8C006C90BF /* Build configuration list for PBXProject "MZShapedButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 017B76A81C111F8C006C90BF;
+			productRefGroup = 017B76B21C111F8C006C90BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017B76B01C111F8C006C90BF /* MZShapedButton */,
+				017B76C91C111F8C006C90BF /* MZShapedButtonTests */,
+				017B76D41C111F8C006C90BF /* MZShapedButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017B76AF1C111F8C006C90BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017B76C41C111F8C006C90BF /* LaunchScreen.storyboard in Resources */,
+				017B76C11C111F8C006C90BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017B76C81C111F8C006C90BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017B76D31C111F8C006C90BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017B76AD1C111F8C006C90BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017B76E91C112011006C90BF /* MZShapedButton.m in Sources */,
+				017B76EC1C1120C3006C90BF /* MZShapedButtonController.m in Sources */,
+				017B76B91C111F8C006C90BF /* AppDelegate.m in Sources */,
+				017B76B61C111F8C006C90BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017B76C61C111F8C006C90BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017B76CF1C111F8C006C90BF /* MZShapedButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017B76D11C111F8C006C90BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017B76DA1C111F8C006C90BF /* MZShapedButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		017B76CC1C111F8C006C90BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017B76B01C111F8C006C90BF /* MZShapedButton */;
+			targetProxy = 017B76CB1C111F8C006C90BF /* PBXContainerItemProxy */;
+		};
+		017B76D71C111F8C006C90BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017B76B01C111F8C006C90BF /* MZShapedButton */;
+			targetProxy = 017B76D61C111F8C006C90BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		017B76C21C111F8C006C90BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017B76C31C111F8C006C90BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017B76DC1C111F8C006C90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017B76DD1C111F8C006C90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017B76DF1C111F8C006C90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MZShapedButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZShapedButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		017B76E01C111F8C006C90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MZShapedButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZShapedButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		017B76E21C111F8C006C90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZShapedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZShapedButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZShapedButton.app/MZShapedButton";
+			};
+			name = Debug;
+		};
+		017B76E31C111F8C006C90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZShapedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZShapedButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZShapedButton.app/MZShapedButton";
+			};
+			name = Release;
+		};
+		017B76E51C111F8C006C90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZShapedButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZShapedButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZShapedButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		017B76E61C111F8C006C90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZShapedButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Machelle.MZShapedButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZShapedButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017B76AC1C111F8C006C90BF /* Build configuration list for PBXProject "MZShapedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017B76DC1C111F8C006C90BF /* Debug */,
+				017B76DD1C111F8C006C90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017B76DE1C111F8C006C90BF /* Build configuration list for PBXNativeTarget "MZShapedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017B76DF1C111F8C006C90BF /* Debug */,
+				017B76E01C111F8C006C90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		017B76E11C111F8C006C90BF /* Build configuration list for PBXNativeTarget "MZShapedButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017B76E21C111F8C006C90BF /* Debug */,
+				017B76E31C111F8C006C90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		017B76E41C111F8C006C90BF /* Build configuration list for PBXNativeTarget "MZShapedButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017B76E51C111F8C006C90BF /* Debug */,
+				017B76E61C111F8C006C90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017B76A91C111F8C006C90BF /* Project object */;
+}
